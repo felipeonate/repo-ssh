@@ -1,0 +1,142 @@
+/* Reset básico */
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+/* Base */
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  background-color: #f4f6f8;
+  color: #1f2933;
+  line-height: 1.5;
+}
+
+/* Layout */
+.login.container,
+.deposit.container,
+.sendmoney.container,
+.transactions.container {
+  max-width: 500px;
+  margin: 0 auto;
+}
+
+header, main, footer {
+  max-width: 480px;
+  margin: 0 auto;
+  padding: 1rem;
+}
+
+header {
+  text-align: center;
+  margin-top: 1rem;
+}
+
+footer {
+  text-align: center;
+  font-size: 0.85rem;
+  color: #6b7280;
+  margin-bottom: 2rem;
+}
+
+/* Títulos */
+h1 {
+  font-size: 1.6rem;
+  margin-bottom: 0.5rem;
+}
+
+h2 {
+  font-size: 1.2rem;
+  margin-bottom: 0.75rem;
+}
+
+/* Enlaces */
+a {
+  color: #2563eb;
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+nav a.current {
+  text-decoration: underline;
+}
+
+/* Formularios */
+form {
+  background-color: #ffffff;
+  padding: 1rem;
+  border-radius: 6px;
+}
+
+fieldset {
+  border: none;
+}
+
+label {
+  display: block;
+  margin-top: 0.75rem;
+  font-weight: bold;
+}
+
+input {
+  width: 100%;
+  padding: 0.5rem;
+  margin-top: 0.25rem;
+  border: 1px solid #cbd5e1;
+  border-radius: 4px;
+}
+
+button {
+  margin-top: 1rem;
+  width: 100%;
+  padding: 0.6rem;
+  background-color: #2563eb;
+  color: #ffffff;
+  border: none;
+  border-radius: 4px;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #1e40af;
+}
+
+/* Menú */
+nav ul {
+  list-style: none;
+  margin-top: 1rem;
+}
+
+nav li {
+  margin-bottom: 0.75rem;
+}
+
+nav a {
+  display: block;
+  background-color: #ffffff;
+  padding: 0.75rem;
+  border-radius: 6px;
+  text-align: center;
+  font-weight: bold;
+}
+
+/* Últimos movimientos */
+section ul {
+  list-style: none;
+  margin-top: 1rem;
+}
+
+section li {
+  background-color: #ffffff;
+  padding: 0.75rem;
+  border-radius: 6px;
+  margin-bottom: 0.5rem;
+  display: flex;
+  justify-content: space-between;
+  font-size: 0.95rem;
+}
